@@ -34,7 +34,7 @@ void LaserDetection::detectContours() {
 
     for (size_t i = 0; i < lines.size(); ++i) {
         Vec4i line1 = lines[i];
-        line(img_hough, Point(line1[0], line1[1]), Point(line1[2], line1[3]), Scalar(0, 255, 0), 1.5, LINE_AA);
+        line(img_hough, Point(line1[0], line1[1]), Point(line1[2], line1[3]), Scalar(0, 255, 0), 1, LINE_AA);
 
         for (size_t j = i + 1; j < lines.size(); ++j) {
             Vec4i line2 = lines[j];
