@@ -9,4 +9,4 @@ int main()
     ImageProcessor.saveResult("../resultats/test.png");
 
     return 0;
-}ImageProcessor
+}

@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/app/main.cpp" "CMakeFiles/projet.dir/app/main.cpp.o" "gcc" "CMakeFiles/projet.dir/app/main.cpp.o.d"
-  "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/src/LaserDetection.cpp" "CMakeFiles/projet.dir/src/LaserDetection.cpp.o" "gcc" "CMakeFiles/projet.dir/src/LaserDetection.cpp.o.d"
+  "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/src/ImageProcessor.cpp" "CMakeFiles/projet.dir/src/ImageProcessor.cpp.o" "gcc" "CMakeFiles/projet.dir/src/ImageProcessor.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

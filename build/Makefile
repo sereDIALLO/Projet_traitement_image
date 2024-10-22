@@ -153,29 +153,29 @@ app/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/projet.dir/build.make CMakeFiles/projet.dir/app/main.cpp.s
 .PHONY : app/main.cpp.s
 
-src/LaserDetection.o: src/LaserDetection.cpp.o
-.PHONY : src/LaserDetection.o
+src/ImageProcessor.o: src/ImageProcessor.cpp.o
+.PHONY : src/ImageProcessor.o
 
 # target to build an object file
-src/LaserDetection.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/projet.dir/build.make CMakeFiles/projet.dir/src/LaserDetection.cpp.o
-.PHONY : src/LaserDetection.cpp.o
+src/ImageProcessor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projet.dir/build.make CMakeFiles/projet.dir/src/ImageProcessor.cpp.o
+.PHONY : src/ImageProcessor.cpp.o
 
-src/LaserDetection.i: src/LaserDetection.cpp.i
-.PHONY : src/LaserDetection.i
+src/ImageProcessor.i: src/ImageProcessor.cpp.i
+.PHONY : src/ImageProcessor.i
 
 # target to preprocess a source file
-src/LaserDetection.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/projet.dir/build.make CMakeFiles/projet.dir/src/LaserDetection.cpp.i
-.PHONY : src/LaserDetection.cpp.i
+src/ImageProcessor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projet.dir/build.make CMakeFiles/projet.dir/src/ImageProcessor.cpp.i
+.PHONY : src/ImageProcessor.cpp.i
 
-src/LaserDetection.s: src/LaserDetection.cpp.s
-.PHONY : src/LaserDetection.s
+src/ImageProcessor.s: src/ImageProcessor.cpp.s
+.PHONY : src/ImageProcessor.s
 
 # target to generate assembly for a file
-src/LaserDetection.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/projet.dir/build.make CMakeFiles/projet.dir/src/LaserDetection.cpp.s
-.PHONY : src/LaserDetection.cpp.s
+src/ImageProcessor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projet.dir/build.make CMakeFiles/projet.dir/src/ImageProcessor.cpp.s
+.PHONY : src/ImageProcessor.cpp.s
 
 # Help Target
 help:
@@ -189,9 +189,9 @@ help:
 	@echo "... app/main.o"
 	@echo "... app/main.i"
 	@echo "... app/main.s"
-	@echo "... src/LaserDetection.o"
-	@echo "... src/LaserDetection.i"
-	@echo "... src/LaserDetection.s"
+	@echo "... src/ImageProcessor.o"
+	@echo "... src/ImageProcessor.i"
+	@echo "... src/ImageProcessor.s"
 .PHONY : help
 
 

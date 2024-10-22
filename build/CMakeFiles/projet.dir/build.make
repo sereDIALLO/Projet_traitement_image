@@ -83,30 +83,30 @@ CMakeFiles/projet.dir/app/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projet.dir/app/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/app/main.cpp" -o CMakeFiles/projet.dir/app/main.cpp.s
 
-CMakeFiles/projet.dir/src/LaserDetection.cpp.o: CMakeFiles/projet.dir/flags.make
-CMakeFiles/projet.dir/src/LaserDetection.cpp.o: /Users/mar1/HOME/1.\ Projects/M2-Techmed/OpenCv/Projet_traitement_image/src/LaserDetection.cpp
-CMakeFiles/projet.dir/src/LaserDetection.cpp.o: CMakeFiles/projet.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/projet.dir/src/LaserDetection.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projet.dir/src/LaserDetection.cpp.o -MF CMakeFiles/projet.dir/src/LaserDetection.cpp.o.d -o CMakeFiles/projet.dir/src/LaserDetection.cpp.o -c "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/src/LaserDetection.cpp"
+CMakeFiles/projet.dir/src/ImageProcessor.cpp.o: CMakeFiles/projet.dir/flags.make
+CMakeFiles/projet.dir/src/ImageProcessor.cpp.o: /Users/mar1/HOME/1.\ Projects/M2-Techmed/OpenCv/Projet_traitement_image/src/ImageProcessor.cpp
+CMakeFiles/projet.dir/src/ImageProcessor.cpp.o: CMakeFiles/projet.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/projet.dir/src/ImageProcessor.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projet.dir/src/ImageProcessor.cpp.o -MF CMakeFiles/projet.dir/src/ImageProcessor.cpp.o.d -o CMakeFiles/projet.dir/src/ImageProcessor.cpp.o -c "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/src/ImageProcessor.cpp"
 
-CMakeFiles/projet.dir/src/LaserDetection.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/projet.dir/src/LaserDetection.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/src/LaserDetection.cpp" > CMakeFiles/projet.dir/src/LaserDetection.cpp.i
+CMakeFiles/projet.dir/src/ImageProcessor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/projet.dir/src/ImageProcessor.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/src/ImageProcessor.cpp" > CMakeFiles/projet.dir/src/ImageProcessor.cpp.i
 
-CMakeFiles/projet.dir/src/LaserDetection.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projet.dir/src/LaserDetection.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/src/LaserDetection.cpp" -o CMakeFiles/projet.dir/src/LaserDetection.cpp.s
+CMakeFiles/projet.dir/src/ImageProcessor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projet.dir/src/ImageProcessor.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/src/ImageProcessor.cpp" -o CMakeFiles/projet.dir/src/ImageProcessor.cpp.s
 
 # Object files for target projet
 projet_OBJECTS = \
 "CMakeFiles/projet.dir/app/main.cpp.o" \
-"CMakeFiles/projet.dir/src/LaserDetection.cpp.o"
+"CMakeFiles/projet.dir/src/ImageProcessor.cpp.o"
 
 # External object files for target projet
 projet_EXTERNAL_OBJECTS =
 
 projet: CMakeFiles/projet.dir/app/main.cpp.o
-projet: CMakeFiles/projet.dir/src/LaserDetection.cpp.o
+projet: CMakeFiles/projet.dir/src/ImageProcessor.cpp.o
 projet: CMakeFiles/projet.dir/build.make
 projet: /opt/homebrew/lib/libopencv_gapi.4.10.0.dylib
 projet: /opt/homebrew/lib/libopencv_stitching.4.10.0.dylib
