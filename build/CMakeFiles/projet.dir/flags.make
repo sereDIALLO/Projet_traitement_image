@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/include" -isystem /opt/homebrew/Cellar/opencv/4.10.0_10/include/opencv4
+CXX_INCLUDES = -I/Users/mar1/HOME/Github/Projet_traitement_image/include -isystem /opt/homebrew/Cellar/opencv/4.10.0_10/include/opencv4
 
 CXX_FLAGSarm64 = -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
 

@@ -1,6 +1,6 @@
 CMakeFiles/projet.dir/src/ImageProcessor.cpp.o: \
-  /Users/mar1/HOME/1.\ Projects/M2-Techmed/OpenCv/Projet_traitement_image/src/ImageProcessor.cpp \
-  /Users/mar1/HOME/1.\ Projects/M2-Techmed/OpenCv/Projet_traitement_image/include/ImageProcessor.hpp \
+  /Users/mar1/HOME/Github/Projet_traitement_image/src/ImageProcessor.cpp \
+  /Users/mar1/HOME/Github/Projet_traitement_image/include/ImageProcessor.hpp \
   /opt/homebrew/Cellar/opencv/4.10.0_10/include/opencv4/opencv2/opencv.hpp \
   /opt/homebrew/Cellar/opencv/4.10.0_10/include/opencv4/opencv2/opencv_modules.hpp \
   /opt/homebrew/Cellar/opencv/4.10.0_10/include/opencv4/opencv2/core.hpp \

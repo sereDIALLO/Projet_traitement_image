@@ -8,7 +8,7 @@ class ImageProcessor
 {
 public:
     ImageProcessor(const std::string& imagePath);
-    void processImage();
+    void processImage(const std::string& outputPath);
     void findIntersections();
     void displayResults();
     void saveResult(const std::string& outputPath);

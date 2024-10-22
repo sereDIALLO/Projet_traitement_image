@@ -13,11 +13,12 @@ ImageProcessor::ImageProcessor(const string& imagePath) {
     img_hough = img.clone();
 }
 
-void ImageProcessor::processImage() {
+void ImageProcessor::processImage(const std::string& outputPath) { //!Marwane 
     cvtColor(img, hsvImage, COLOR_BGR2HSV);
     createLaserMask();
     detectContours();
     createPlantAndWeedMasks();
+    cv::imwrite(outputPath, img);
 }
 
 void ImageProcessor::findIntersections() {

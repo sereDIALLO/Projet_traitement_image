@@ -1,6 +1,6 @@
 CMakeFiles/projet.dir/app/main.cpp.o: \
-  /Users/mar1/HOME/1.\ Projects/M2-Techmed/OpenCv/Projet_traitement_image/app/main.cpp \
-  /Users/mar1/HOME/1.\ Projects/M2-Techmed/OpenCv/Projet_traitement_image/app/../include/ImageProcessor.hpp \
+  /Users/mar1/HOME/Github/Projet_traitement_image/app/main.cpp \
+  /Users/mar1/HOME/Github/Projet_traitement_image/app/../include/ImageProcessor.hpp \
   /opt/homebrew/Cellar/opencv/4.10.0_10/include/opencv4/opencv2/opencv.hpp \
   /opt/homebrew/Cellar/opencv/4.10.0_10/include/opencv4/opencv2/opencv_modules.hpp \
   /opt/homebrew/Cellar/opencv/4.10.0_10/include/opencv4/opencv2/core.hpp \
@@ -1018,4 +1018,21 @@ CMakeFiles/projet.dir/app/main.cpp.o: \
   /opt/homebrew/Cellar/opencv/4.10.0_10/include/opencv4/opencv2/stitching/detail/blenders.hpp \
   /opt/homebrew/Cellar/opencv/4.10.0_10/include/opencv4/opencv2/video.hpp \
   /opt/homebrew/Cellar/opencv/4.10.0_10/include/opencv4/opencv2/video/tracking.hpp \
-  /opt/homebrew/Cellar/opencv/4.10.0_10/include/opencv4/opencv2/video/background_segm.hpp
+  /opt/homebrew/Cellar/opencv/4.10.0_10/include/opencv4/opencv2/video/background_segm.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__filesystem/u8path.h

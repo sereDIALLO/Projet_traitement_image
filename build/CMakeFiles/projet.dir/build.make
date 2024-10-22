@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image"
+CMAKE_SOURCE_DIR = /Users/mar1/HOME/Github/Projet_traitement_image
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/build"
+CMAKE_BINARY_DIR = /Users/mar1/HOME/Github/Projet_traitement_image/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/projet.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/projet.dir/progress.make
 include CMakeFiles/projet.dir/flags.make
 
 CMakeFiles/projet.dir/app/main.cpp.o: CMakeFiles/projet.dir/flags.make
-CMakeFiles/projet.dir/app/main.cpp.o: /Users/mar1/HOME/1.\ Projects/M2-Techmed/OpenCv/Projet_traitement_image/app/main.cpp
+CMakeFiles/projet.dir/app/main.cpp.o: /Users/mar1/HOME/Github/Projet_traitement_image/app/main.cpp
 CMakeFiles/projet.dir/app/main.cpp.o: CMakeFiles/projet.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/projet.dir/app/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projet.dir/app/main.cpp.o -MF CMakeFiles/projet.dir/app/main.cpp.o.d -o CMakeFiles/projet.dir/app/main.cpp.o -c "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/app/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mar1/HOME/Github/Projet_traitement_image/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/projet.dir/app/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projet.dir/app/main.cpp.o -MF CMakeFiles/projet.dir/app/main.cpp.o.d -o CMakeFiles/projet.dir/app/main.cpp.o -c /Users/mar1/HOME/Github/Projet_traitement_image/app/main.cpp
 
 CMakeFiles/projet.dir/app/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/projet.dir/app/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/app/main.cpp" > CMakeFiles/projet.dir/app/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mar1/HOME/Github/Projet_traitement_image/app/main.cpp > CMakeFiles/projet.dir/app/main.cpp.i
 
 CMakeFiles/projet.dir/app/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projet.dir/app/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/app/main.cpp" -o CMakeFiles/projet.dir/app/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mar1/HOME/Github/Projet_traitement_image/app/main.cpp -o CMakeFiles/projet.dir/app/main.cpp.s
 
 CMakeFiles/projet.dir/src/ImageProcessor.cpp.o: CMakeFiles/projet.dir/flags.make
-CMakeFiles/projet.dir/src/ImageProcessor.cpp.o: /Users/mar1/HOME/1.\ Projects/M2-Techmed/OpenCv/Projet_traitement_image/src/ImageProcessor.cpp
+CMakeFiles/projet.dir/src/ImageProcessor.cpp.o: /Users/mar1/HOME/Github/Projet_traitement_image/src/ImageProcessor.cpp
 CMakeFiles/projet.dir/src/ImageProcessor.cpp.o: CMakeFiles/projet.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/projet.dir/src/ImageProcessor.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projet.dir/src/ImageProcessor.cpp.o -MF CMakeFiles/projet.dir/src/ImageProcessor.cpp.o.d -o CMakeFiles/projet.dir/src/ImageProcessor.cpp.o -c "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/src/ImageProcessor.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mar1/HOME/Github/Projet_traitement_image/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/projet.dir/src/ImageProcessor.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projet.dir/src/ImageProcessor.cpp.o -MF CMakeFiles/projet.dir/src/ImageProcessor.cpp.o.d -o CMakeFiles/projet.dir/src/ImageProcessor.cpp.o -c /Users/mar1/HOME/Github/Projet_traitement_image/src/ImageProcessor.cpp
 
 CMakeFiles/projet.dir/src/ImageProcessor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/projet.dir/src/ImageProcessor.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/src/ImageProcessor.cpp" > CMakeFiles/projet.dir/src/ImageProcessor.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mar1/HOME/Github/Projet_traitement_image/src/ImageProcessor.cpp > CMakeFiles/projet.dir/src/ImageProcessor.cpp.i
 
 CMakeFiles/projet.dir/src/ImageProcessor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projet.dir/src/ImageProcessor.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/src/ImageProcessor.cpp" -o CMakeFiles/projet.dir/src/ImageProcessor.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mar1/HOME/Github/Projet_traitement_image/src/ImageProcessor.cpp -o CMakeFiles/projet.dir/src/ImageProcessor.cpp.s
 
 # Object files for target projet
 projet_OBJECTS = \
@@ -165,7 +165,7 @@ projet: /opt/homebrew/lib/libopencv_photo.4.10.0.dylib
 projet: /opt/homebrew/lib/libopencv_imgproc.4.10.0.dylib
 projet: /opt/homebrew/lib/libopencv_core.4.10.0.dylib
 projet: CMakeFiles/projet.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable projet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mar1/HOME/Github/Projet_traitement_image/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable projet"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/projet.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -177,6 +177,6 @@ CMakeFiles/projet.dir/clean:
 .PHONY : CMakeFiles/projet.dir/clean
 
 CMakeFiles/projet.dir/depend:
-	cd "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image" "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image" "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/build" "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/build" "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/build/CMakeFiles/projet.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd /Users/mar1/HOME/Github/Projet_traitement_image/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mar1/HOME/Github/Projet_traitement_image /Users/mar1/HOME/Github/Projet_traitement_image /Users/mar1/HOME/Github/Projet_traitement_image/build /Users/mar1/HOME/Github/Projet_traitement_image/build /Users/mar1/HOME/Github/Projet_traitement_image/build/CMakeFiles/projet.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/projet.dir/depend
 

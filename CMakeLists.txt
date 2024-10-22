@@ -1,4 +1,4 @@
-Cmake_minimum_required(VERSION 2.8)
+Cmake_minimum_required(VERSION 3.10)
 project(Desherbage)
 find_package( OpenCV REQUIRED)
 include_directories( ${OpenCV_INCLUDE_DIRS} )
