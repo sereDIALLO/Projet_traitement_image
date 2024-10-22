@@ -15,7 +15,7 @@ WeedingProject est un projet d'application en ligne de commande développée en 
 
 ## Structure :
 
-<img width="288" alt="image" src="https://github.com/user-attachments/assets/7472c44c-c17c-480e-a162-fc17dc6fad93">
+<img width="1024" alt="image" src="https://github.com/user-attachments/assets/7472c44c-c17c-480e-a162-fc17dc6fad93">
 
 
 ## Utilisation
