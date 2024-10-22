@@ -15,25 +15,8 @@ WeedingProject est un projet d'application en ligne de commande développée en 
 
 ## Structure :
 
-WeedingProject/
-│
-├── include/
-│   ├── DisplayManager.hpp  # Gestion de l'affichage des résultats
-│   └── ImageProcessor.hpp  # Traitement des images
-│
-├── src/
-│   ├── DisplayManager.cpp  # Implémentation de l'affichage
-│   └── ImageProcessor.cpp  # Implémentation des algorithmes de traitement
-│
-├── tests/
-│   └── main.cpp            # Tests unitaires et validation des fonctionnalités
-│
-├── data/
-│   ├── input/              # Images d'entrée pour le traitement
-│   └── output/             # Résultats générés (images annotées, fichiers CSV)
-│
-├── CMakeLists.txt          # Configuration CMake pour la compilation
-└── README.md               # Ce fichier
+<img width="288" alt="image" src="https://github.com/user-attachments/assets/7472c44c-c17c-480e-a162-fc17dc6fad93">
+
 
 ## Utilisation
 
