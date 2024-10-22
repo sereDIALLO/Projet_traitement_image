@@ -1,13 +1,13 @@
- #ifndef LASERDETECTION_HPP
-#define LASERDETECTION_HPP
+ #ifndef IMAGEPROCESSOR_HPP
+#define IMAGEPROCESSOR_HPP
 
 #include <opencv2/opencv.hpp>
 #include <vector>
 
-class LaserDetection
+class ImageProcessor
 {
 public:
-    LaserDetection(const std::string& imagePath);
+    ImageProcessor(const std::string& imagePath);
     void processImage();
     void findIntersections();
     void displayResults();
@@ -27,4 +27,4 @@ private:
     void displayImage(const std::string& windowName, const cv::Mat& img);
 };
 
-#endif // LASERDETECTION_HPP
+#endif // IMAGEPROCESSOR_HPP

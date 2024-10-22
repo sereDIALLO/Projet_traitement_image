@@ -1,10 +1,10 @@
-#include "LaserDetection.hpp"
+#include "ImageProcessor.hpp"
 #include <iostream>
 
 using namespace cv;
 using namespace std;
 
-LaserDetection::LaserDetection(const std::string& imagePath) {
+ImageProcessor::ImageProcessor(const string& imagePath) {
     img = imread(imagePath);
     if (img.empty()) {
         cerr << "Erreur: Impossible de charger l'image!" << endl;
@@ -13,25 +13,25 @@ LaserDetection::LaserDetection(const std::string& imagePath) {
     img_hough = img.clone();
 }
 
-void LaserDetection::processImage() {
+void ImageProcessor::processImage() {
     cvtColor(img, hsvImage, COLOR_BGR2HSV);
     createLaserMask();
     detectContours();
     createPlantAndWeedMasks();
 }
 
-void LaserDetection::findIntersections() {
+void ImageProcessor::findIntersections() {
     detectContours();
 }
 
-void LaserDetection::createLaserMask() {
+void ImageProcessor::createLaserMask() {
     Scalar lowerGreen(40, 60, 60);
     Scalar upperGreen(90, 255, 255);
     inRange(hsvImage, lowerGreen, upperGreen, laser);
     GaussianBlur(laser, laser_blur, Size(5, 5), 0);
 }
 
-void LaserDetection::detectContours() {
+void ImageProcessor::detectContours() {
     Canny(laser_blur, img_canny, 50, 150, 3);
     vector<Vec4i> lines;
     HoughLinesP(img_canny, lines, 1, CV_PI / 180, 30, 30, 5);
@@ -53,7 +53,7 @@ void LaserDetection::detectContours() {
     calculateAverageIntersection();
 }
 
-bool LaserDetection::findIntersection(Point p1, Point p2, Point p3, Point p4, Point& intersection) {
+bool ImageProcessor::findIntersection(Point p1, Point p2, Point p3, Point p4, Point& intersection) {
     float a1 = p2.y - p1.y;
     float b1 = p1.x - p2.x;
     float c1 = a1 * p1.x + b1 * p1.y;
@@ -77,7 +77,7 @@ bool LaserDetection::findIntersection(Point p1, Point p2, Point p3, Point p4, Po
              intersection.y < min(p3.y, p4.y) || intersection.y > max(p3.y, p4.y));
 }
 
-void LaserDetection::calculateAverageIntersection() {
+void ImageProcessor::calculateAverageIntersection() {
     if (!intersections.empty()) {
         Point avgIntersection(0, 0);
         for (const auto& pt : intersections) {
@@ -91,7 +91,7 @@ void LaserDetection::calculateAverageIntersection() {
     }
 }
 
-void LaserDetection::createPlantAndWeedMasks() {
+void ImageProcessor::createPlantAndWeedMasks() {
     vector<Mat> hsv_planes;
     split(hsvImage, hsv_planes);
     img_h = hsv_planes[0];
@@ -109,7 +109,7 @@ void LaserDetection::createPlantAndWeedMasks() {
     dilate(dilatedLaser, dilatedLaser, dilationElement);
 }
 
-void LaserDetection::displayResults() {
+void ImageProcessor::displayResults() {
     displayImage("Image d'origine", img);
     displayImage("Laser", laser);
     displayImage("Gaussian Blur", laser_blur);
@@ -118,11 +118,11 @@ void LaserDetection::displayResults() {
     waitKey(0);
 }
 
-void LaserDetection::displayImage(const std::string& windowName, const cv::Mat& img) {
+void ImageProcessor::displayImage(const std::string& windowName, const cv::Mat& img) {
     namedWindow(windowName, WINDOW_AUTOSIZE);
     imshow(windowName, img);
 }
 
-void LaserDetection::saveResult(const std::string& outputPath) {
+void ImageProcessor::saveResult(const std::string& outputPath) {
     imwrite(outputPath, img_hough);
 }
