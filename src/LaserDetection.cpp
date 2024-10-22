@@ -20,6 +20,11 @@ void LaserDetection::processImage() {
     createPlantAndWeedMasks();
 }
 
+void LaserDetection::findIntersections() {
+    // This can call detectContours if you want to delegate the logic there
+    detectContours();
+}
+
 void LaserDetection::createLaserMask() {
     Scalar lowerGreen(40, 60, 60);
     Scalar upperGreen(90, 255, 255);
@@ -108,7 +113,7 @@ void LaserDetection::createPlantAndWeedMasks() {
 void LaserDetection::displayResults() {
     displayImage("Image d'origine", img);
     displayImage("Laser", laser);
-    displayImage("Gaussian Blur", laser_blur);
+    displayImage("Gaussian Blur", dilationElement);
     displayImage("Image de contour", img_canny);
     displayImage("Hough", img_hough);
     waitKey(0);

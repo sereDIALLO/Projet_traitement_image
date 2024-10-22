@@ -9,7 +9,7 @@ class LaserDetection
 public:
     LaserDetection(const std::string& imagePath);
     void processImage();
-    //void findIntersections();
+    void findIntersections();
     void displayResults();
     void saveResult(const std::string& outputPath);
 
