@@ -21,7 +21,6 @@ void LaserDetection::processImage() {
 }
 
 void LaserDetection::findIntersections() {
-    // This can call detectContours if you want to delegate the logic there
     detectContours();
 }
 
@@ -113,7 +112,7 @@ void LaserDetection::createPlantAndWeedMasks() {
 void LaserDetection::displayResults() {
     displayImage("Image d'origine", img);
     displayImage("Laser", laser);
-    displayImage("Gaussian Blur", dilationElement);
+    displayImage("Gaussian Blur", laser_blur);
     displayImage("Image de contour", img_canny);
     displayImage("Hough", img_hough);
     waitKey(0);
