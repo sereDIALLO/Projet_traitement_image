@@ -1,7 +1,7 @@
 CMakeFiles/projet.dir/src/LaserDetection.cpp.o: \
- /home/tdiallo/Desktop/projet/src/LaserDetection.cpp \
+ /home/tdiallo/Desktop/Projet_traitement_image/src/LaserDetection.cpp \
  /usr/include/stdc-predef.h \
- /home/tdiallo/Desktop/projet/include/LaserDetection.hpp \
+ /home/tdiallo/Desktop/Projet_traitement_image/include/LaserDetection.hpp \
  /usr/include/opencv4/opencv2/opencv.hpp \
  /usr/include/opencv4/opencv2/opencv_modules.hpp \
  /usr/include/opencv4/opencv2/core.hpp \
