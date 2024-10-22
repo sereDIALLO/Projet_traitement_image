@@ -1,9 +1,10 @@
- #include "LaserDetection.hpp"
+#include "../include/LaserDetection.hpp"
 
-int main() {
+int main() 
+{
     LaserDetection laserDetection("../data/im001.png");
     laserDetection.processImage();
-    laserDetection.findIntersections();
+    //laserDetection.findIntersections();
     laserDetection.displayResults();
     laserDetection.saveResult("../resultats/test.png");
 
