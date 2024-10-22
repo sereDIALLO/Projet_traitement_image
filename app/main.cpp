@@ -2,7 +2,7 @@
 
 int main() 
 {
-    ImageProcessor ImageProcessor("../data/im001.png");
+    ImageProcessor ImageProcessor("../data/im003.png");
     ImageProcessor.processImage();
     ImageProcessor.findIntersections();
     ImageProcessor.displayResults();
