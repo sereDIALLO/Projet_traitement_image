@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/tdiallo/Desktop/New Folder/Projet_traitement_image"
+CMAKE_SOURCE_DIR = "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/tdiallo/Desktop/New Folder/Projet_traitement_image/build"
+CMAKE_BINARY_DIR = "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/projet.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/projet.dir/progress.make
 include CMakeFiles/projet.dir/flags.make
 
 CMakeFiles/projet.dir/app/main.cpp.o: CMakeFiles/projet.dir/flags.make
-CMakeFiles/projet.dir/app/main.cpp.o: /home/tdiallo/Desktop/New\ Folder/Projet_traitement_image/app/main.cpp
+CMakeFiles/projet.dir/app/main.cpp.o: /Users/mar1/HOME/1.\ Projects/M2-Techmed/OpenCv/Projet_traitement_image/app/main.cpp
 CMakeFiles/projet.dir/app/main.cpp.o: CMakeFiles/projet.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/tdiallo/Desktop/New Folder/Projet_traitement_image/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/projet.dir/app/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projet.dir/app/main.cpp.o -MF CMakeFiles/projet.dir/app/main.cpp.o.d -o CMakeFiles/projet.dir/app/main.cpp.o -c "/home/tdiallo/Desktop/New Folder/Projet_traitement_image/app/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/projet.dir/app/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projet.dir/app/main.cpp.o -MF CMakeFiles/projet.dir/app/main.cpp.o.d -o CMakeFiles/projet.dir/app/main.cpp.o -c "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/app/main.cpp"
 
 CMakeFiles/projet.dir/app/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/projet.dir/app/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/tdiallo/Desktop/New Folder/Projet_traitement_image/app/main.cpp" > CMakeFiles/projet.dir/app/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/app/main.cpp" > CMakeFiles/projet.dir/app/main.cpp.i
 
 CMakeFiles/projet.dir/app/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projet.dir/app/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/tdiallo/Desktop/New Folder/Projet_traitement_image/app/main.cpp" -o CMakeFiles/projet.dir/app/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/app/main.cpp" -o CMakeFiles/projet.dir/app/main.cpp.s
 
 CMakeFiles/projet.dir/src/ImageProcessor.cpp.o: CMakeFiles/projet.dir/flags.make
-CMakeFiles/projet.dir/src/ImageProcessor.cpp.o: /home/tdiallo/Desktop/New\ Folder/Projet_traitement_image/src/ImageProcessor.cpp
+CMakeFiles/projet.dir/src/ImageProcessor.cpp.o: /Users/mar1/HOME/1.\ Projects/M2-Techmed/OpenCv/Projet_traitement_image/src/ImageProcessor.cpp
 CMakeFiles/projet.dir/src/ImageProcessor.cpp.o: CMakeFiles/projet.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/tdiallo/Desktop/New Folder/Projet_traitement_image/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/projet.dir/src/ImageProcessor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projet.dir/src/ImageProcessor.cpp.o -MF CMakeFiles/projet.dir/src/ImageProcessor.cpp.o.d -o CMakeFiles/projet.dir/src/ImageProcessor.cpp.o -c "/home/tdiallo/Desktop/New Folder/Projet_traitement_image/src/ImageProcessor.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/projet.dir/src/ImageProcessor.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projet.dir/src/ImageProcessor.cpp.o -MF CMakeFiles/projet.dir/src/ImageProcessor.cpp.o.d -o CMakeFiles/projet.dir/src/ImageProcessor.cpp.o -c "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/src/ImageProcessor.cpp"
 
 CMakeFiles/projet.dir/src/ImageProcessor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/projet.dir/src/ImageProcessor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/tdiallo/Desktop/New Folder/Projet_traitement_image/src/ImageProcessor.cpp" > CMakeFiles/projet.dir/src/ImageProcessor.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/src/ImageProcessor.cpp" > CMakeFiles/projet.dir/src/ImageProcessor.cpp.i
 
 CMakeFiles/projet.dir/src/ImageProcessor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projet.dir/src/ImageProcessor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/tdiallo/Desktop/New Folder/Projet_traitement_image/src/ImageProcessor.cpp" -o CMakeFiles/projet.dir/src/ImageProcessor.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/src/ImageProcessor.cpp" -o CMakeFiles/projet.dir/src/ImageProcessor.cpp.s
 
 # Object files for target projet
 projet_OBJECTS = \
@@ -108,63 +108,64 @@ projet_EXTERNAL_OBJECTS =
 projet: CMakeFiles/projet.dir/app/main.cpp.o
 projet: CMakeFiles/projet.dir/src/ImageProcessor.cpp.o
 projet: CMakeFiles/projet.dir/build.make
-projet: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_alphamat.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_barcode.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_cvv.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_face.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_intensity_transform.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_mcc.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_rapid.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_wechat_qrcode.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.6.0
-projet: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.6.0
+projet: /opt/homebrew/lib/libopencv_gapi.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_stitching.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_alphamat.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_aruco.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_bgsegm.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_bioinspired.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_ccalib.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_dnn_objdetect.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_dnn_superres.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_dpm.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_face.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_freetype.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_fuzzy.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_hfs.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_img_hash.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_intensity_transform.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_line_descriptor.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_mcc.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_quality.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_rapid.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_reg.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_rgbd.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_saliency.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_sfm.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_signal.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_stereo.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_structured_light.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_superres.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_surface_matching.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_tracking.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_videostab.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_viz.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_wechat_qrcode.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_xfeatures2d.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_xobjdetect.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_xphoto.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_shape.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_highgui.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_datasets.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_plot.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_text.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_ml.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_phase_unwrapping.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_optflow.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_ximgproc.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_video.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_videoio.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_imgcodecs.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_objdetect.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_calib3d.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_dnn.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_features2d.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_flann.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_photo.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_imgproc.4.10.0.dylib
+projet: /opt/homebrew/lib/libopencv_core.4.10.0.dylib
 projet: CMakeFiles/projet.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/tdiallo/Desktop/New Folder/Projet_traitement_image/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable projet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable projet"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/projet.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -176,6 +177,6 @@ CMakeFiles/projet.dir/clean:
 .PHONY : CMakeFiles/projet.dir/clean
 
 CMakeFiles/projet.dir/depend:
-	cd "/home/tdiallo/Desktop/New Folder/Projet_traitement_image/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/tdiallo/Desktop/New Folder/Projet_traitement_image" "/home/tdiallo/Desktop/New Folder/Projet_traitement_image" "/home/tdiallo/Desktop/New Folder/Projet_traitement_image/build" "/home/tdiallo/Desktop/New Folder/Projet_traitement_image/build" "/home/tdiallo/Desktop/New Folder/Projet_traitement_image/build/CMakeFiles/projet.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image" "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image" "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/build" "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/build" "/Users/mar1/HOME/1. Projects/M2-Techmed/OpenCv/Projet_traitement_image/build/CMakeFiles/projet.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/projet.dir/depend
 
