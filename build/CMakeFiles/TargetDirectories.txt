@@ -1,0 +1,3 @@
+/home/tdiallo/Desktop/Projet_traitement_image/build/CMakeFiles/projet.dir
+/home/tdiallo/Desktop/Projet_traitement_image/build/CMakeFiles/edit_cache.dir
+/home/tdiallo/Desktop/Projet_traitement_image/build/CMakeFiles/rebuild_cache.dir
