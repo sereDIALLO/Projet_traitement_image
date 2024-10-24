@@ -51,9 +51,9 @@ bool ImageProcessing::findIntersection(Point p1, Point p2, Point p3, Point p4, P
 void ImageProcessing::detectLaser() 
 {
     cvtColor(img, hsvImage, COLOR_BGR2HSV);
-    Scalar lowerGreen(60, 50, 60), upperGreen(100, 255, 255);
+    Scalar lowerGreen(60, 50, 60), upperGreen(90, 255, 255);
     inRange(hsvImage, lowerGreen, upperGreen, laser);
-    GaussianBlur(laser, laser_blur, Size(7 ,7), 1,9);
+    GaussianBlur(laser, laser_blur, Size(7 ,7), 1,8);
     Canny(laser_blur, img_canny, 50, 150, 3);
 }
 
@@ -66,9 +66,10 @@ void ImageProcessing::detectLinesAndIntersections()
 
     // Point de référence
     Point referencePoint(846, 522);
-    int threshold = 200; // seuil de distance
+    int threshold = 700; // seuil de distance
 
-    for (size_t i = 0; i < lines.size(); ++i) {
+    for (size_t i = 0; i < lines.size(); ++i)
+    {
         Vec4i line1 = lines[i];
         line(img_hough, Point(line1[0], line1[1]), Point(line1[2], line1[3]), Scalar(0, 255, 0), 1.5, LINE_AA);
 
@@ -81,7 +82,8 @@ void ImageProcessing::detectLinesAndIntersections()
             {
                 // Calculer la distance entre l'intersection et le point de référence
                 double distance = norm(intersection - referencePoint);
-                if (distance <= threshold) {
+                if (distance <= threshold) 
+                {
                     // Garder l'intersection
                     intersections.push_back(intersection);
                     //circle(img_hough, intersection, 7, Scalar(0, 0, 255), -1); // Cercle pour marquer l'intersection
